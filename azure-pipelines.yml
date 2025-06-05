@@ -1,0 +1,15 @@
+trigger:
+- master
+
+pool:
+  name: Default
+
+steps:
+- script: echo Building my first azure pipeline
+  displayName: 'Run a one-line script'
+
+- script: mvn clean install
+  displayName: 'Build and deployment of maven'
+
+- script: java -jar target/MyMaven111-1.0-SNAPSHOT.jar
+  displayName: 'Running jar'
