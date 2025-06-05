@@ -11,5 +11,5 @@ steps:
 - script: mvn clean install
   displayName: 'Build and deployment of maven'
 
-- script: java -jar target/MyMaven111-1.0-SNAPSHOT.jar
+- script: java -jar target/MyMaven11-1.0-SNAPSHOT.jar
   displayName: 'Running jar'
