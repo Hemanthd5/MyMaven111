@@ -6,7 +6,7 @@ maven 'Maven'
 stages{
 stage('Checkout'){
 steps{
-git-branch:'master',url:'https://github.com/Hemanthd5/MyMaven111'
+git branch:'master',url:'https://github.com/Hemanthd5/MyMaven111'
 }
 }
 stage('Build'){
