@@ -33,3 +33,4 @@ failure{
 echo 'Build failed'
 }
 }
+}
